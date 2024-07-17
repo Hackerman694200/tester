@@ -3344,11 +3344,11 @@ do
 					queue = queue .. " getgenv().AutoOpenSafes = " .. tostring(getgenv().AutoOpenSafes)
 				end
 				queue = queue .. " getgenv().LogWebhook = " .. tostring(getgenv().LogWebhook)
-				queue = queue .. " getgenv().RobMansion = true")
-				queue = queue .. " getgenv().RobShip = true")
-				queue = queue .. " getgenv().RobCrate = true")
-				queue = queue .. " getgenv().PickUpCash = true)
-				queue = queue .. " getgenv().Enabled = true)
+				queue = queue .. " getgenv().RobMansion = " .. tostring(getgenv().RobMansion)
+				queue = queue .. " getgenv().RobShip = " .. tostring(getgenv().RobShip)
+				queue = queue .. " getgenv().RobCrate = " .. tostring(getgenv().RobCrate)
+				queue = queue .. " getgenv().PickUpCash = " .. tostring(getgenv().PickUpCash)
+				queue = queue .. " getgenv().Enabled = " .. tostring(getgenv().Enabled)
 				queue = queue .. " getgenv().Mobile = " .. tostring(getgenv().Mobile)
 				queue = queue .. " getgenv().Advertise = " .. tostring(getgenv().Advertise)
 				if LRM_IsUserPremium then
